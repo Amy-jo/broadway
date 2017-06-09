@@ -12,6 +12,8 @@ h1 {
 
 header {
   background-image: url("resources/images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+  background-color: dimgray;
 }
 
 .main-menu {
@@ -26,7 +28,11 @@ header {
   background-color: dimgray;
   text-align: left;
   list-style: none;
-  display: block;
+  display: inline;
+}
+
+footer {
+  display: inline;
 }
 
 h2 {
@@ -39,6 +45,8 @@ h2 {
   font-weight: bold;
   color: white;
   background-image: url("resources/images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+  background-color: dimgray;
 }
 
 h3 {
